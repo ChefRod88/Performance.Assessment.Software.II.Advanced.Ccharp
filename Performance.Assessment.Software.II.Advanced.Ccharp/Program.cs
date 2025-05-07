@@ -16,7 +16,7 @@ namespace Performance.Assessment.Software.II.Advanced.Ccharp
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new LoginForm());
         }
     }
 }
