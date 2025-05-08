@@ -23,7 +23,7 @@ namespace Performance.Assessment.Software.II.Advanced.Ccharp.Properties {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
     internal class Resources {
-        internal static string LoginSuccess;
+        
         private static global::System.Resources.ResourceManager resourceMan;
         
         private static global::System.Globalization.CultureInfo resourceCulture;
@@ -102,6 +102,16 @@ namespace Performance.Assessment.Software.II.Advanced.Ccharp.Properties {
         internal static string Password {
             get {
                 return ResourceManager.GetString("Password", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Screenshot_2025_05_07_205529 {
+            get {
+                object obj = ResourceManager.GetObject("Screenshot 2025-05-07 205529", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
             }
         }
         

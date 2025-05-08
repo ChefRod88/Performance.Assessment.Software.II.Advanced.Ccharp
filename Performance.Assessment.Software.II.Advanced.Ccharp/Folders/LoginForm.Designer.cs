@@ -178,6 +178,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.ClientSize = new System.Drawing.Size(450, 321);
             this.Controls.Add(this.lblLocationValueB);
             this.Controls.Add(this.lblTimeZoneValueA);
@@ -193,6 +194,7 @@
             this.Controls.Add(this.lblUserContext);
             this.Controls.Add(this.lblLanguage);
             this.Controls.Add(this.btnLogin);
+            this.DoubleBuffered = true;
             this.Name = "LoginForm";
             this.Text = "Intersys Global Login";
             this.ResumeLayout(false);
