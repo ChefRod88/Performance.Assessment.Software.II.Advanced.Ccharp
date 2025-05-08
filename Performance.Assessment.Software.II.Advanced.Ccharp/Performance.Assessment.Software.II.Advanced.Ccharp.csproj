@@ -98,16 +98,51 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DbConnection.cs" />
-    <Compile Include="LoginForm.cs">
+    <Compile Include="Folders\AppointmentForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="LoginForm.Designer.cs">
+    <Compile Include="Folders\AppointmentForm.Designer.cs">
+      <DependentUpon>AppointmentForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Folders\CalendarForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Folders\CalendarForm.Designer.cs">
+      <DependentUpon>CalendarForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Folders\CustomerForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Folders\CustomerForm.Designer.cs">
+      <DependentUpon>CustomerForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Database\DbConnection.cs" />
+    <Compile Include="Folders\LoginForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Folders\LoginForm.Designer.cs">
       <DependentUpon>LoginForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Folders\MainMenuForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Folders\MainMenuForm.Designer.cs">
+      <DependentUpon>MainMenuForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="LoginForm.resx">
+    <Compile Include="Folders\ReportForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Folders\ReportForm.Designer.cs">
+      <DependentUpon>ReportForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Resources.es.Designer.cs">
+      <DependentUpon>Resources.es.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Folders\LoginForm.resx">
       <DependentUpon>LoginForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -118,7 +153,13 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="Properties\Resources.es.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.es.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
